@@ -1,0 +1,23 @@
+<html>
+    <head><title>Project 77</title></head>
+    <body align = "center" bgcolor = 1A3661>
+        <h1>Project 77</h1>
+    </body>
+    <script>
+        console.log("This is my first time using a console.");
+        var FirstName = prompt("What is your first name?");
+        var LastName = prompt("What is your last name?");
+        var FullName = (FirstName.concat(" ",LastName));
+        console.log("Your full name is ".concat(FullName));
+        var FullNameLength = FullName.length;
+        console.log("The character length of your full name is ".concat(FullNameLength, " characters"));
+        var UpperCase = FullName.toUpperCase();
+        console.log("This is your name in capital letters --> ".concat(UpperCase));
+        var number = prompt("Pick any number to take the square root of");
+        console.log("The square root of ".concat(number, " is ", Math.sqrt(number)));
+        var number2 = prompt("Pick any number to take the power of");
+        var power = prompt("Pick a power for your number");        
+        console.log((number2.concat(" to the power ", power, " is ", Math.pow(number,power))));
+        
+    </script>
+</html>
